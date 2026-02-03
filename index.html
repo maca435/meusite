@@ -2,17 +2,23 @@
 <html>
 <head>
     <title>Site Suspeito</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        video { max-width: 100%; height: auto; margin: 20px 0; }
+    </style>
 </head>
 <body>
-    <!-- Inclui header -->
-    {% include header.html %}
-    
     <h1>Vídeo Assustador</h1>
     <video controls autoplay muted>
         <source src="assustador.mp4" type="video/mp4">
     </video>
     
-    <p>Clique aqui para acessar seu OnlyFans:</p>
-    <a href="https://onlyfans.com">Acessar OnlyFans</a>
+    <h2>Clique no link abaixo para acessar o OnlyFans:</h2>
+    <a href="https://onlyfans.com/cardib" target="_blank">
+        <button style="padding: 10px 20px; background-color: #ff6b6b; color: white; border: none; border-radius: 5px;">
+            Acessar OnlyFans
+        </button>
+    </a>
 </body>
 </html>
